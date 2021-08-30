@@ -34,7 +34,7 @@ def print_recipe() -> str:
     :rtype: str
     """
 
-    result = f'Рецепт {TITLE}:\n\r' + ",\n".join(RECIPE)
+    result = f'Рецепт {TITLE}:\n' + ",\n".join(RECIPE)
     return result
 
 
