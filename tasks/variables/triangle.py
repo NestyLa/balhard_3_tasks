@@ -26,8 +26,7 @@ def triangle(side_1: int, side_2: int) -> tuple:
     """
     hypotenuse = (side_1 ** 2 + side_2 ** 2) ** 0.5
     perimeter = side_1 + side_2 + hypotenuse
-    square = (perimeter / 2 * (
-                (perimeter / 2 - side_1) * (perimeter / 2 - side_2) * (perimeter / 2 - hypotenuse))) ** 0.5
+    square = (perimeter / 2 * ((perimeter / 2 - side_1) * (perimeter / 2 - side_2) * (perimeter / 2 - hypotenuse))) ** 0.5
     return hypotenuse, perimeter, square
 
 
